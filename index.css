@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.nav-color {
+    background-color: #fff;
+}
+
+navbar-brand::before {
+    background-image: url('./images/logo.webp');
+}
+
+#landing {
+    background: url('./images/hero_bg.png') no-repeat;
+    background-size: 774px;
+    background-position: top right;
+    color: #fff;
+    padding: 100px;
+    height: 80vh;
+}
+#landing h1 {
+    color: #0251F3;
+}
+#landing h1 span {
+    display: block;
+    font-size: 75px;
+}
+#landing p.lead {
+    color: #2B2B2B;
+    line-height: 35px;
+}
+.hero-icons img {
+    width: 48px;
+    height: 48px;
+}
+.welcome-message {
+    max-width: 600px;
+}
+
+#tools {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+}
+
+#tools img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+#tools img {
+    width: 64px;
+    height: auto;
+}
+
+#projects {
+    background-color: #F8F9FD;
+}
+
+.box {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
+
+@media (max-width: 576px) {
+    #hero h1 span { 
+        font-size: 45px;
+    }
+    #landing {
+        background: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #hero h1 span { 
+        font-size: 56px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #hero h1 span { 
+        font-size: 65px;
+    }
+}
+
+@media (min-width: 993px) {
+    #landing h1 span {
+        font-size: 75px;
+        width: 900px;
+    }
+}
