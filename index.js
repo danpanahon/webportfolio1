@@ -1,6 +1,6 @@
 {
     "capstone": {
-        "liveLink": "https://github.com/drap54",
+        "liveLink": "https://drap54.github.io/webportfolio1/",
         "name": "Dan Panahon",
         "isMulti": false
     }
